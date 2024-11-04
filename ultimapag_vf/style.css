@@ -1,0 +1,231 @@
+body {
+    font-family: 'Lusitana', serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #CE9800;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Header da seção "Atrações" */
+.section-header {
+    background-color: #113F60;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.section-header .underline {
+    width: 100px;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin: 10px auto 0;
+}
+
+/* Conteúdo da seção */
+.content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.content h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Botões das regiões */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #113F60;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.buttons .btn:hover {
+    background-color: #CE9800;
+}
+
+/* Estilos do Grid Container */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.grid-container, .grid-container1 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 200px;
+    grid-template-areas: 
+        "item1 item2 item5"
+        "item3 item2 item6"
+        "item4 item2 item6";
+    max-width: 400px;
+}
+
+.grid-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Definição das áreas específicas e dimensões */
+.grid-item:nth-child(1) {
+    grid-area: item1;
+    height: 150px;
+    width: 150px;
+}
+
+.grid-item:nth-child(2) {
+    grid-area: item2;
+    height: 300px;
+    width: 200px;
+}
+
+.grid-item:nth-child(3) {
+    grid-area: item3;
+    height: 150px;
+    width: 150px;
+}
+
+.grid-item:nth-child(4) {
+    grid-area: item4;
+    height: 200px;
+    width: 200px;
+}
+
+.grid-item:nth-child(5) {
+    grid-area: item5;
+    height: 150px;
+    width: 150px;
+}
+
+.grid-item span {
+    background: rgba(230, 138, 138, 0.5);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+/* Estilos das Regiões */
+.region-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto; 
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex; 
+}
+
+.region-image {
+    width: 50%; 
+    height: auto; 
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+}
+
+.region-text {
+    padding: 20px; 
+    flex: 1; 
+}
+
+.ouro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CE9800;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%; 
+    max-width: 770px; 
+    margin: 0 auto; 
+}
+
+.ouro-text {
+    max-width: 50%; 
+    padding-right: 20px; 
+}
+
+.ouro-text h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ouro-text p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card-image {
+    width: 50%; 
+    max-width: 500px; 
+    height: auto;
+    border-radius: 10px; 
+}

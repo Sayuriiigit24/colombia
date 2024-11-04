@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Colômbia Travel</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <div class="navbar">
+        <div class="navbar-content"> <img src="./logo.png" alt="Logo Colômbia" class="logo"> 
+
+            <!-- Links de navegação para diferentes seções da página -->
+            <ul class="nav-links">
+                <li><a href="#">Conheça</a></li>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Cultura</a></li>
+                <li><a href="#">Atrações</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Header da seção "Atrações" -->
+    <div class="section-header">
+        <h2>Atrações</h2> 
+        <div class="underline"></div> <!-- Linha decorativa abaixo do título -->
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <h3>Descubra os pontos turísticos</h3> <!-- Subtítulo explicando o conteúdo da seção -->
+        <p>Para te guiar a planejar sua aventura, separei alguns dos principais pontos turísticos da Colômbia:</p> <!-- Texto descritivo -->
+        <div class="buttons">
+            <!-- Botões para selecionar diferentes regiões turísticas -->
+            <button class="btn">Região Andina</button>
+            <button class="btn">Região Caribe</button>
+            <button class="btn">Região Amazônica</button>
+        </div>
+    </div>
+
+    <!-- Grid Container com imagens das atrações -->
+    <div class="container">
+        <!-- Primeira linha do grid com três imagens -->
+        <div class="grid-container">
+            <div class="grid-item" style="background-image: url('./images/bogota1.png');"></div> <!-- Imagem da atração de Bogotá -->
+            <div class="grid-item" style="background-image: url('./images/salento.png');"></div> <!-- Imagem de Salento -->
+            <div class="grid-item" style="background-image: url('./images/medellin.png');"></div> <!-- Imagem de Medellín -->
+        </div>
+
+        <!-- Segunda linha do grid com três imagens -->
+        <div class="grid-container1">
+            <div class="grid-item" style="background-image: url('./images/guatape.png');"></div> <!-- Imagem de Guatapé -->
+            <div class="grid-item" style="background-image: url('./images/bogota2.png');"></div> <!-- Outra imagem de Bogotá -->
+            <div class="grid-item" style="background-image: url('./images/medellin2.png');"></div> <!-- Outra imagem de Medellín -->
+        </div>
+    </div>
+
+    <!-- Seções detalhadas para cada região -->
+    <div class="region-container">
+        <img src="./images/andina.png" alt="Imagem da Região Andina" class="region-image"> <!-- Imagem representando a Região Andina -->
+        <div class="region-text">
+            <h2>Região Andina</h2> 
+            <h3>Formada por: Bogotá, Medellín, Salento e Guatapé.</h3> <!-- Cidades principais da Região Andina -->
+            <p>Bogotá é a capital colombiana e um centro cultural vibrante...</p> <!-- Descrição da Região Andina e suas atrações -->
+        </div>
+    </div>
+
+    <div class="region-container caribe">
+        <div class="region-text">
+            <h2>Região Caribe</h2> 
+            <h3>Formada por: Cartagena, San Andrés, Santa Marta.</h3> <!-- Cidades principais da Região Caribe -->
+            <p>San Andrés é um paraíso caribenho com águas cristalinas...</p> <!-- Descrição da Região Caribe e suas atrações -->
+        </div>
+        <img src="./images/caribe.png" alt="Imagem da Região Caribe" class="region-image"> <!-- Imagem representando a Região Caribe -->
+    </div>
+
+    <div class="region-container">
+        <img src="./images/amazonica.png" alt="Imagem da Região Amazônica" class="region-image"> <!-- Imagem representando a Região Amazônica -->
+        <div class="region-text">
+            <h2>Região Amazônica</h2> 
+            <h3>Formada por: Letícia.</h3> <!-- Cidade principal da Região Amazônica -->
+            <p>A porta de entrada para a Amazônia colombiana...</p> <!-- Descrição da Região Amazônica e suas atrações -->
+        </div>
+    </div>
+
+    <!-- Seção de curiosidade sobre o Museu do Ouro -->
+     <br>
+     <br>
+    <div class="ouro">
+        <div class="ouro-text">
+            <h2>Curiosidade</h2> 
+            <p>Em Bogotá está localizado o Museu do Ouro: 
+                Onde abriga a maior coleção de objetos de ouro 
+                pré-colombianos do mundo, um tesouro que revela 
+                a riqueza cultural das civilizações antigas da região.</p> 
+        </div>
+        <img src="./images/barra.png" alt="Barras de ouro" class="card-image"> 
+    </div>
+
+</body>
+</html>
